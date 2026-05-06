@@ -1,16 +1,45 @@
-# React + Vite
+# Lúmina Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page premium desenvolvida para uma clínica estética fictícia, com foco em design minimalista, experiência visual sofisticada e interface moderna.
 
-Currently, two official plugins are available:
+## ✨ Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Preview do projeto](./public/preview.png)
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS3
+- Framer Motion
+- Lucide React
 
-## Expanding the ESLint configuration
+## 🎨 Características
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Design minimalista e elegante
+- Layout totalmente responsivo
+- Animações suaves
+- Identidade visual autoral
+- Navegação fluida
+- Estrutura moderna para negócios locais
+
+## 🔗 Deploy
+
+https://SEU-LINK-VERCEL.vercel.app/
+
+## 💻 Como executar
+
+```bash
+npm install
+npm run dev
+```
+
+## 📌 Objetivo
+
+Este projeto foi desenvolvido com foco em praticar:
+
+- composição visual
+- hierarquia de interface
+- construção de landing pages premium
+- experiência do usuário
+- desenvolvimento front-end moderno
