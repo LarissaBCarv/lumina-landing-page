@@ -1,0 +1,130 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.hero-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.hero-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  line-height: 1.1;
+  margin-top: 1.5rem;
+  color: #1a1a1a;
+}
+
+.hero-content p {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.primary-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+
+  padding: 1rem 2rem;
+  border-radius: 999px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #ccc;
+
+  padding: 1rem 2rem;
+  border-radius: 999px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  background: #eaeaea;
+}
+
+.hero-image-wrapper {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 800px;
+
+  object-fit: cover;
+
+  border-radius: 2rem;
+}
+
+.hero-card {
+  position: absolute;
+
+  bottom: -30px;
+  left: -30px;
+
+  background: white;
+
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+
+  max-width: 260px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.hero-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 980px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-image {
+    height: 500px;
+  }
+
+  .hero-card {
+    left: 20px;
+    bottom: 20px;
+  }
+}

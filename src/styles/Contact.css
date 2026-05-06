@@ -1,0 +1,106 @@
+.contact-section {
+  width: 100%;
+  padding: 10rem 2rem;
+
+  background: #f2f2f2;
+
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-subtitle {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+
+  color: #777;
+}
+
+.contact-section h2 {
+  margin-top: 1.5rem;
+
+  font-size: 4.5rem;
+  line-height: 1.1;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+
+  color: #1a1a1a;
+}
+
+.contact-section p {
+  max-width: 650px;
+
+  margin: 2rem auto 0;
+
+  font-size: 1.1rem;
+  line-height: 1.9;
+
+  color: #666;
+}
+
+.contact-button {
+  margin-top: 3rem;
+
+  background: #1a1a1a;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 999px;
+
+  padding: 1rem 2.5rem;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  opacity: 0.9;
+}
+
+.contact-info {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  flex-wrap: wrap;
+
+  color: #777;
+}
+
+.footer {
+  width: 100%;
+
+  padding: 2rem;
+
+  border-top: 1px solid #e5e5e5;
+
+  background: #f2f2f2;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.footer span {
+  color: #777;
+  font-size: 0.9rem;
+}

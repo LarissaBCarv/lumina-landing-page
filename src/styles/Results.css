@@ -1,0 +1,94 @@
+.testimonials-section {
+  width: 100%;
+  padding: 8rem 2rem;
+
+  background: #e7e1d9;
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials-header {
+  max-width: 700px;
+}
+
+.testimonials-subtitle {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+
+  color: #777;
+}
+
+.testimonials-header h2 {
+  margin-top: 1.5rem;
+
+  font-size: 3.5rem;
+  line-height: 1.2;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+
+  color: #1a1a1a;
+}
+
+.testimonial-featured {
+  margin-top: 5rem;
+
+  background: #ffffff;
+
+  padding: 4rem;
+  border-radius: 2rem;
+
+  border: 1px solid #e5e5e5;
+}
+
+.featured-quote {
+  font-size: 2rem;
+  line-height: 1.5;
+
+  font-family: "Playfair Display", serif;
+
+  color: #1a1a1a;
+}
+
+.featured-name {
+  display: block;
+
+  margin-top: 2rem;
+
+  color: #777;
+}
+
+.testimonials-grid {
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: #ffffff;
+
+  padding: 3rem;
+
+  border-radius: 2rem;
+
+  border: 1px solid #e5e5e5;
+}
+
+.testimonial-card p {
+  line-height: 1.9;
+  color: #555;
+}
+
+.testimonial-card span {
+  display: block;
+
+  margin-top: 2rem;
+
+  color: #777;
+}
