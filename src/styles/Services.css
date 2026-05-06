@@ -70,3 +70,26 @@
   line-height: 1.8;
   color: #666;
 }
+
+@media (max-width: 980px) {
+  .services-section {
+    padding: 6rem 2rem;
+  }
+
+  .services-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+
+  .service-card {
+    padding: 2.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.3rem;
+  }
+}

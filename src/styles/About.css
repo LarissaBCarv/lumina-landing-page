@@ -58,3 +58,18 @@
 
   color: #555;
 }
+
+@media (max-width: 980px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .about-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-image img {
+    height: 500px;
+  }
+}

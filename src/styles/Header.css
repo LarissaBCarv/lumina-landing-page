@@ -52,3 +52,29 @@
 .logo-nav {
   width: 130px;
 }
+
+@media (max-width: 980px) {
+  .nav-bar {
+    padding: 2rem;
+  }
+
+  .nav-bar nav {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo-nav {
+    order: -1;
+
+    width: 170px;
+  }
+
+  .left-links,
+  .right-links {
+    gap: 1.5rem;
+  }
+
+  .nav-bar a {
+    font-size: 0.85rem;
+  }
+}

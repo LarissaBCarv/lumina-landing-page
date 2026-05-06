@@ -111,12 +111,33 @@
 }
 
 @media (max-width: 980px) {
+  .hero {
+    padding: 2rem 2rem;
+  }
+
   .hero-container {
     grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .hero-content {
+    text-align: center;
   }
 
   .hero-content h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+
+  .hero-content p {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .hero-image {
@@ -126,5 +147,7 @@
   .hero-card {
     left: 20px;
     bottom: 20px;
+
+    max-width: 220px;
   }
 }

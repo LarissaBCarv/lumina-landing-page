@@ -92,3 +92,30 @@
 
   color: #777;
 }
+
+@media (max-width: 980px) {
+  .testimonials-section {
+    padding: 6rem 2rem;
+  }
+
+  .testimonials-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-featured {
+    padding: 2.5rem;
+  }
+
+  .featured-quote {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    padding: 2.5rem;
+  }
+}
