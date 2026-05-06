@@ -25,7 +25,7 @@ Landing page premium desenvolvida para uma clínica estética fictícia, com foc
 
 ## 🔗 Deploy
 
-https://SEU-LINK-VERCEL.vercel.app/
+[Lúmia Studio](https://lumina-landing-page-one.vercel.app/)
 
 ## 💻 Como executar
 
