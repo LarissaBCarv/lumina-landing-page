@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/preview.png" alt="Lúmina Studio banner">
+  <img src="./docs/banner.png" alt="Lúmina Studio banner">
 </p>
 
 <h1 align="center">Lúmina Studio</h1>
